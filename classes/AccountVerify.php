@@ -1,7 +1,7 @@
 <?php
 session_start();
 $filepath=realpath(dirname(__FILE__));
-include_once ($filepath.'../../lib/Database.php') ;
+include_once ($filepath.'../../library/Database.php') ;
 include_once ($filepath.'../../helpers/Format.php') ;
 if (isset($_GET['function']) && isset($_GET['code'])) {
 	$function = $_GET['function'];

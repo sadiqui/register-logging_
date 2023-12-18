@@ -3,7 +3,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 $filepath=realpath(dirname(__FILE__));
-include_once ($filepath.'../../lib/Database.php') ;
+include_once ($filepath.'../../library/Database.php') ;
 include_once ($filepath.'../../helpers/Format.php') ;
 
 //Load Composer's autoloader

@@ -3,11 +3,11 @@
 
 <!-- inc.php  -->
 <?php
-include 'lib/Session.php' ;
+include 'library/Session.php' ;
 Session::init();
 ob_start();
 
-include 'lib/Database.php' ;
+include 'library/Database.php' ;
 include 'helpers/Format.php';
 
  $fm   = new Format();

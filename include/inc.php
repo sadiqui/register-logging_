@@ -1,10 +1,10 @@
 <?php
 
-include '../lib/Session.php' ;
+include '../library/Session.php' ;
 Session::init();
 ob_start();
 
-include '../lib/Database.php' ;
+include '../library/Database.php' ;
 include '../helpers/Format.php';
 
 spl_autoload_register(function($class){
