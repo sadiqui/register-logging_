@@ -9,12 +9,6 @@
     * Remember me Option
     * Email Verification (TBC)
 
-# Pages Demonstration
-![register.php](assets/img/oop_register.png)
-![login.php](assets/img/oop_login.png)
-![profile.php](assets/img/oop_profile.png)
-![index.php](assets/img/oop_home.png)
-
 # Installed Pakeges
     composer require vlucas/phpdotenv
 
@@ -23,3 +17,11 @@
     /config
     /vendor
     .htaccess
+
+# Pages Demonstration
+<div style="display: flex; justify-content: space-between;">
+    <img src="assets/img/oop_profile.png" alt="profile.php" style="flex: 1; width: 48%;">
+    <img src="assets/img/oop_register.png" alt="register.php" style="flex: 1; width: 48%;">
+    <img src="assets/img/oop_home.png" alt="home.php" style="flex: 1; width: 48%;">
+    <img src="assets/img/oop_login.png" alt="login.php" style="flex: 1; width: 48%;">
+</div>
