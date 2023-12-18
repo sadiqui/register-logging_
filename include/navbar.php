@@ -8,8 +8,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">Home </a>
-                    <!-- echo(URLROOT); -->
+                    <a class="nav-link" href="<?php echo(URLROOT);?>">Home </a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto">

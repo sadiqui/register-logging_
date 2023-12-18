@@ -50,7 +50,7 @@
 
      public static function destroy(){
       session_destroy();
-      header("Location:services/login.php");
+      header("Location:login.php");
       exit();
      }
 
