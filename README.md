@@ -7,9 +7,12 @@
     * Profile mangement System
     * Forget/Reset Password
     * Remember me Option
-    * Email Verification
-    * Account Verification
-    * XSS & SQL injection prevention
+    * Email Verification (ToDo...)
 
 # Installed Pakeges
-    composer update
+    composer require vlucas/phpdotenv
+
+# Ignored Files
+    /assets/sql
+    /config
+    /vendor
