@@ -1,13 +1,13 @@
 # PHP OOP Authentication
-
     A complete login and register form
 
 # All Features Within
-    * Login / Register
+    * Register, Login, Logout
     * Profile mangement System
-    * Forget/Reset Password
+    * Forget, Reset Password
+    * Password Hashing
     * Remember me Option
-    * Email Verification (ToDo...)
+    * Email Verification (TBC)
 
 # Installed Pakeges
     composer require vlucas/phpdotenv
